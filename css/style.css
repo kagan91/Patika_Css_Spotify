@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Burası 1.bölüm */
+.wrapper {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    background-color: #000000;
+}
+
+.header {
+    display: flex;
+}
+
+.header i {
+    display: inline-block;
+    margin-top: 15px;
+    background: white;
+    color: rgb(22, 21, 21);
+    height:45px;
+    font-size: 45px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.header h1 {
+    color: white;
+    padding-top: 21px;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 26px 17px ;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.menu ul li a:hover {
+    color: #1ED760;
+}
+
+section.text-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #2941AB;
+    display: flex;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text h1 {
+    font-size: 156px;
+    color: #1ED760;
+    letter-spacing: -10px;
+    
+}
+
+.text p {
+    font-size: 20px;
+    color: #1ED760;
+    padding-top: 40px;
+}
+
+.text a {
+    text-decoration: none;
+    color: #2A5AA1;
+    padding: 14px 32px;
+    background: #1ED760;
+    border-radius: 500px;
+    margin-top: 40px;
+    display: inline-block;
+    line-height: 17px;
+}
+
+.text a:hover {
+    background-color: #2DE26D;
+    font-size: 17px;
+}
+
+/* Burası 2.bölüm */
+section#premium {
+    width: 100%;
+    background-color: #1D75DE;
+    padding: 80px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.premium h1{
+    color: white;
+    font-weight: 900;
+    font-size: 28px;
+    margin:50px 0 ;
+}
+
+.premium h2 {
+    color: white;
+    font-size: 24px;
+}
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 18px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight:600;
+  }
+
+  .button1 {
+      background-color:black ;
+      border: 2px solid black;
+  }
+
+  .button2 {
+    background-color: #1D75DE;
+    border: 2px solid white;
+  }
+
+  .button1:hover {
+      background-color: rgb(32, 31, 31);
+  }
+
+  .button2:hover {
+    background-color: #1A69C7;
+  }
+
+  /* Burası 3.bölüm */
+
+  section#destek {
+      width: 100%;
+      background-image: url(/image/destek.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      /* height: 400px; */
+  }
+
+  section .help {
+      width: 100%;
+  }
+
+  section .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  section .search h1{
+      color: #ffffff;
+      font-size: 64px;
+      padding: 80px 0 40px;
+  }
+
+  section .searchbox {
+      width: 100%;
+      margin-bottom: 200px;
+  }
+
+  section .searchbox input {
+      width: 600px;
+      border: 2px solid #ffffff;
+      border-right: 0;
+      font-size: 18px;
+      padding: 12px;
+      background: transparent;
+      background-color: white;
+      color: black;
+      border-radius: 50px;
+  }
+
+  section .searchbox input:focus{
+    outline: none;
+}
+
+/* Burası son bölüm */
+
+footer {
+    width: 100%;
+    background-color: black;
+    /* height: 400px; */
+   
+}
+
+.sp-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; 
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 350px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 25px auto;
+
+}
+
+.links {
+    padding-left: 100px;
+}
+
+.links h3 {
+    color: #919496;;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 3px;
+}
+
+.links a {
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.social {
+    width: 250px;
+    margin-bottom: 130px;   
+}
+
+.social ul li {
+    display: inline-block;
+    padding: 15px;
+    color: white;
+}
+
+
+.social ul li i{
+    background-color: #222326;
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.links a:hover {
+    color:#1ED760 ;
+}
+
+.social ul li i:hover {
+    color: #1ED760 ;
+}

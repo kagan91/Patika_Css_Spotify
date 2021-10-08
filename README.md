@@ -1,0 +1,1 @@
+# CSS etiketleri kullanılarak Spotify sitesinin küçük bir kopyası tasarlandı.
