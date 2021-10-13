@@ -298,4 +298,5 @@ footer {
 
 .social ul li i:hover {
     color: #1ED760 ;
+    cursor: pointer;
 }
